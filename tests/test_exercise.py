@@ -1,7 +1,7 @@
 import pytest
-from src.exercise import main
+from src.exercise import print_until_number
 
 def test_exercise(capsys):
-    main()
+    print_until_number(4)
     out, err = capsys.readouterr()
-    assert out == "\n", "Should read ''"
+    assert out == "1\n2\n3\n4\n", "Should read '1\n2\n3\n4\n'"

@@ -4,8 +4,7 @@ Create the following method in the exercise template: `def print_until_number(nu
 
 ```python
 def main():
-    print_until_number(5);
-
+    print_until_number(5)
 ```
 
 ```plaintext
@@ -18,7 +17,7 @@ def main():
 
 ```python
 def main():
-    print_until_number(2);
+    print_until_number(2)
 ```
 
 ```plaintext
